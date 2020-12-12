@@ -7,8 +7,12 @@ ruby '2.6.6'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
+# Simple form
+gem 'simple_form'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+# Use faker to generate fake data
+gem 'faker'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
