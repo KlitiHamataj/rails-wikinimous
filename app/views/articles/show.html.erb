@@ -1,0 +1,13 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="<%= articles_path %>">Show All</a>
+</nav>
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <p style="font-weight: lighter; font-size: 18px"><%= @article.content %></p>
+
+
+
+  <%= link_to 'Edit', edit_article_path(@article) %>
+  <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } %>
+</div>
+
